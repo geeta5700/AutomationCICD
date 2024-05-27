@@ -20,6 +20,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 String productName = "ZARA COAT 3";
+//new commits to check jenkins CICD
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
